@@ -24,3 +24,11 @@
 * [base64编码、Hex编码、字符编码，MD5、SHA-X HASH摘要算法，对称加密与解密](shiro-example-chapter5/src/test/java/org/orh/shiro/chapter5/hash/CodecAndCryptoTest.java)
 * [passwordService、passwordMatcher密码加密与验证，saltStyle的saltStyle枚举转换问题，credentialsMatcher-实现密码验证服务，密码重试次数限定](shiro-example-chapter5/src/test/java/org/orh/shiro/chapter5/hash/PasswordTest.java)
 * [ehcache3-的编程式配置、三层存储、TTI与TTL测试](shiro-example-chapter5/src/test/java/org/orh/shiro/chapter5/hash/Ehcache3Test.java)
+
+#### [第六章-Realm及相关对象](shiro-example-chapter6)
+* [用户、角色、权限，用户-n角色、角色-n权限，lombok实体注解](shiro-example-chapter6/src/main/java/org/orh/shiro/chapter6/entity)
+* [spring-jdbc jdbcTemplate dao中操作](shiro-example-chapter6/src/main/java/org/orh/shiro/chapter6/dao)
+* [通过-UserRealm连接Shiro与UserService](shiro-example-chapter6/src/main/java/org/orh/shiro/chapter6/realm/UserRealm.java)
+* [测试jdbc登录成功、用户名错误、密码错误、密码超出重试次数、有/没有角色、有/没有权限的测试](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/realm/UserRealmTest.java)
+* [多个realm时subject中principal信息](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/realm/PrincipalCollectionTest.java)
+* [用户、角色、权限的调整测试](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/ServiceTest.java)
