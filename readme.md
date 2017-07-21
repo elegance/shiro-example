@@ -32,3 +32,11 @@
 * [测试jdbc登录成功、用户名错误、密码错误、密码超出重试次数、有/没有角色、有/没有权限的测试](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/realm/UserRealmTest.java)
 * [多个realm时subject中principal信息](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/realm/PrincipalCollectionTest.java)
 * [用户、角色、权限的调整测试](shiro-example-chapter6/src/test/java/org/orh/shiro/chapter6/ServiceTest.java)
+
+#### [第七章-与Web集成](shiro-example-chapter7)
+* Run Command: `mvn jetty:run`，切换`web.xml`中的`shiroConfigLocations`注释，测试不同功能
+* [shiro1.2+ web.xml方式的配置](/shiro-example-chapter7/src/main/webapp/WEB-INF/web.xml)
+* [页面取值方式：shiro标签与request设置attribute subject](/shiro-example-chapter7/src/main/webapp/WEB-INF/jsp/loginSuccess.jsp)
+* [普通登录-使用shiro.ini](/shiro-example-chapter7/src/main/java/org/orh/shiro/chapter7/web/servlet/LoginServlet.java)
+* [Basic的拦截器身份-浏览器弹出登录-使用shiro-basicFilterLogin.ini](/shiro-example-chapter7/src/main/resources/shiro-basicFilterLogin.ini)
+* [类似普通登录-简化-使用shiro-formFilterLogin.ini](/shiro-example-chapter7/src/main/resources/shiro-formFilterLogin.ini)
