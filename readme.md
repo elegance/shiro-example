@@ -48,3 +48,5 @@
 * [AccessControlFilter 继承 PathMatchingFilter-提供isAccessAllowed与onAccessDenied](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/MyAccessControlFilter.java)
 * [基于表单登录拦截器](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/FormLoginFilter.java)
 * [任意角色拦截器](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/AnyRolesFilter.java)
+
+#### [第九章-JSP标签](shiro-example-chapter9)
