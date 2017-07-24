@@ -50,3 +50,8 @@
 * [任意角色拦截器](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/AnyRolesFilter.java)
 
 #### [第九章-JSP标签](shiro-example-chapter9)
+
+#### [第十章-JSP标签](shiro-example-chapter10)
+* [会话信息-session](/shiro-example-chapter10/src/test/java/org/orh/shiro/chapter10/SessionTest.java)
+* [sessionListener](/shiro-example-chapter10/src/main/java/org/orh/shiro/chapter10/web/listener/MySessionListener1.java)
+* [会话存储/持久化](/shiro-example-chapter10/src/main/java/org/orh/shiro/chapter10/session/dao/MySessionDAO.java)
