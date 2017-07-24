@@ -40,3 +40,11 @@
 * [普通登录-使用shiro.ini](/shiro-example-chapter7/src/main/java/org/orh/shiro/chapter7/web/servlet/LoginServlet.java)
 * [Basic的拦截器身份-浏览器弹出登录-使用shiro-basicFilterLogin.ini](/shiro-example-chapter7/src/main/resources/shiro-basicFilterLogin.ini)
 * [类似普通登录-简化-使用shiro-formFilterLogin.ini](/shiro-example-chapter7/src/main/resources/shiro-formFilterLogin.ini)
+
+#### [第八章-拦截器机制](shiro-example-chapter8)
+* [扩展OncePerRequestFilter-保证一次请求只执行一次doFilter](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/MyOncePerRequestFilter.java)
+* [扩展AdviceFilter](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/MyAdviceFilter.java)
+* [PathMatchingFilter 继承了 AdviceFilter，提供了 url 模式过滤的功能](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/MyPathMatchingFilter.java)
+* [AccessControlFilter 继承 PathMatchingFilter-提供isAccessAllowed与onAccessDenied](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/MyAccessControlFilter.java)
+* [基于表单登录拦截器](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/FormLoginFilter.java)
+* [任意角色拦截器](/shiro-example-chapter8/src/main/java/org/orh/shiro/chapter8/web/filter/AnyRolesFilter.java)
