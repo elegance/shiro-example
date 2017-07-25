@@ -51,7 +51,9 @@
 
 #### [第九章-JSP标签](shiro-example-chapter9)
 
-#### [第十章-JSP标签](shiro-example-chapter10)
+#### [第十章-会话管理](shiro-example-chapter10)
 * [会话信息-session](/shiro-example-chapter10/src/test/java/org/orh/shiro/chapter10/SessionTest.java)
 * [sessionListener](/shiro-example-chapter10/src/main/java/org/orh/shiro/chapter10/web/listener/MySessionListener1.java)
 * [会话存储/持久化](/shiro-example-chapter10/src/main/java/org/orh/shiro/chapter10/session/dao/MySessionDAO.java)
+
+#### [第十一章-缓存机制](shiro-example-chapter11)

@@ -1,0 +1,19 @@
+<config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xmlns='http://www.ehcache.org/v3'
+	xsi:schemaLocation="http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core.xsd">
+
+	<cache-template name="shiroCache">
+		<expiry>
+			<ttl unit="seconds">3600</ttl>
+		</expiry>
+		<heap unit="entries">2000</heap>
+	</cache-template>
+
+
+	<cache alias="authorizationCache" uses-template="shiroCache" />
+
+	<cache alias="authenticationCache" uses-template="shiroCache" />
+
+	<cache alias="shiro-activeSessionCache" uses-template="shiroCache" />
+
+</config>
