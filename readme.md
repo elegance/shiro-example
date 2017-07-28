@@ -57,3 +57,6 @@
 * [会话存储/持久化](/shiro-example-chapter10/src/main/java/org/orh/shiro/chapter10/session/dao/MySessionDAO.java)
 
 #### [第十一章-缓存机制](shiro-example-chapter11)
+
+#### [第十二章-spring-boot集成](shiro-example-chapter12)
+* [后台无页面跳转，json数据响应，适合前后端分离的权限控制](/shiro-example-chapter12/src/main/java/org/orh/shiro/chapter12/web/controller/ShiroController.java)
