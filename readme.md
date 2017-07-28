@@ -60,3 +60,4 @@
 
 #### [第十二章-spring-boot集成](shiro-example-chapter12)
 * [后台无页面跳转，json数据响应，适合前后端分离的权限控制](/shiro-example-chapter12/src/main/java/org/orh/shiro/chapter12/web/controller/ShiroController.java)
+* [前端测试地址-(测试方便公用一个http服务)]- http://127.0.0.1:8080/index.html
